@@ -1,0 +1,40 @@
+.home{
+    margin: auto;
+    padding: 1.5rem 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/assets/Imagens/Section-Desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.home-container{
+    max-width: 50%;
+}
+
+.home-container > h1{
+    font-family: var(--fonte-titulo);
+    color: var(--azul-escuro);
+    font-weight: 700;
+    font-size: 3.75rem;
+}
+
+.destaque{
+    color: var(--roxo);
+}
+
+.home-container > p{
+    font-family: var(--fonte-texto);
+    font-size: 1.25rem;
+    font-weight: ;
+    color: var(--cinza);
+    line-height: 36px;
+
+}
+
+.home-container > button{
+    font-size: 16px;
+}
