@@ -20,6 +20,7 @@
     display: flex;
     gap: 1.5rem;
     justify-content: end;
+    margin-right: 1rem;
  
 }
 .nav-list-item {
@@ -47,7 +48,6 @@
     background-image: linear-gradient(to left,var(--roxo), var(--vermelho));
     border: none;
     color: #FFFF;
-    margin: 0 1rem;
 }
 
 
@@ -55,6 +55,7 @@
     border: 1px solid var(--roxo);
     background-color: transparent;
     color: var(--roxo);
+    margin-left: 1rem;
 }
 
 @media screen and (max-width:1200px){

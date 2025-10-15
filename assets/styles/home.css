@@ -1,14 +1,11 @@
 .home{
-    margin: auto;
-    padding: 1.5rem 0 ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-image: url('/assets/Imagens/Section-Desktop.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
 }
 
 .home-container{
@@ -29,12 +26,43 @@
 .home-container > p{
     font-family: var(--fonte-texto);
     font-size: 1.25rem;
-    font-weight: ;
     color: var(--cinza);
     line-height: 36px;
+    padding: 2rem 0;
 
 }
 
 .home-container > button{
     font-size: 16px;
+}
+
+@media screen and (max-width:1200px) {
+    .home > img {
+        display: none;
+    }
+
+    .home-container{
+    text-align: center;
+    }
+
+    .home{
+    padding: 5rem;
+
+    }
+
+   .home-container{
+        max-width: 90%;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 920px) {
+    .home-container > h1{
+    font-size: 2rem;
+    }
+
+    
 }
