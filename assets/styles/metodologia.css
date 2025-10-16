@@ -1,5 +1,6 @@
 .metodologia{
     background-image: linear-gradient(to bottom,#FFFFFF, #E7EDF5);
+    padding: 5rem 0;
     
 }
 
@@ -44,11 +45,5 @@ max-width: 70%;
 text-align: center;
     
 }
-
-}
-
-
-
-@media screen and (max-width:920px){
 
 }

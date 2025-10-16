@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./assets/styles/home.css">
     <link rel="stylesheet" href="./assets/styles/sobre.css">
     <link rel="stylesheet" href="./assets/styles/metodologia.css">
+    <link rel="stylesheet" href="./assets/styles/projetos.css">
+
 
 
 
@@ -110,6 +112,86 @@
                 <button class="botao-secundario botao">SABER MAIS SOBRE NOSSA METODOLOGIA</button>
             </div>
         </div>
+    </section>
+    <section class="projetos">
+        <div class="container-projetos">
+            <h3 class="subtitulo">_nossos projetos</h3>
+            <h2 class="titulo"><span class="destaque">Projetos </span>de estudantes da Alura Start:</h2>
+        </div>
+        <ul class="projetos-list">
+            <li class="projetos-list-item">
+                <img src="assets/Imagens/Imagens cards/Jump in sky.png" alt="Jogo Jump in sky" class="img-l">
+                <img src="assets/Imagens/Imagens cards/Jump in sky_mobile.png" alt="Jogo Jump in sky" class="img-s">
+                <h5>Jump in Sky</h5>
+                <div class="projetos-list-row">
+                    <a href="#">Ver projeto</a>
+                    <span>Jogo</span>
+                </div>                
+            </li>
+            <li class="projetos-list-item">
+                <img src="assets/Imagens/Imagens cards/Caça ao tesouro.png" alt="Jogo Labirinto: Caça ao Tesouro" class="img-l">
+                <img src="assets/Imagens/Imagens cards/Caça ao tesouro_mobile.png" alt="Jogo Labirinto: Caça ao Tesouro" class="img-s">
+                <h5>Labirinto: Caça ao Tesouro</h5>
+                <div class="projetos-list-row">
+                    <a href="#">Ver projeto</a>
+                    <span>Jogo</span>
+                </div>                
+            </li>
+            <li class="projetos-list-item">
+                <img src="assets/Imagens/Imagens cards/hipopotamo-voador.png" alt="Jogo Hipopótamo Voador" class="img-l">
+                <img src="assets/Imagens/Imagens cards/hipopotamo-voador_mobile.png" alt="Jogo Hipopótamo Voador" class="img-s">
+                <h5>Hipopótamo Voador</h5>
+                <div class="projetos-list-row">
+                    <a href="#">Ver projeto</a>
+                    <span>Jogo</span>
+                </div>                
+            </li>
+            <li class="projetos-list-item">
+                <img src="assets/Imagens/Imagens cards/tom-e-jerry.png" alt="Jogo Tom & Jerry" class="img-l">
+                <img src="assets/Imagens/Imagens cards/tom-e-jerry_mobile.png" alt="Jogo Tom & Jerry" class="img-s">
+                <h5>Tom & Jerry</h5>
+                <div class="projetos-list-row">
+                    <a href="#">Ver projeto</a>
+                    <span>Jogo</span>
+                </div>                
+            </li>
+        </ul>
+        <div><button class="botao-principal botao">QUERO CONHECER!</button></div>
+    </section>
+    <section class="form">
+        <div class="form-container">
+            <img src="assets/Logo e Favicon/logo-branco.svg" alt="">
+            <h3 class="subtitulo">_tenha a Alura Start na sua escola</h3>
+            <h2 class="titulo">Transforme sua escola com nossas <span class="destaque-2">soluções inovadoras</span></h2>
+            <div>
+                <img src="assets/Ícones/SVG/email.svg" alt="">
+                <p class="texto">atendimento.alurastart@alura.com.br</p>
+            </div>
+        </div>
+        <form action="destino.php" method="phost">
+            <h3 class="subtitulo">_solicite um orçamento personalizado</h3>
+            <label for="nome">Nome *</label>
+            <input type="text" id="nome" name="nome" required placeholder="Informe o seu nome">
+            <label for="email">E-mail *</label>
+            <input type="email" id="email" name="email" required placeholder="Informe seu e-mail institucional">
+            <label for="escola">Escola *</label>
+            <input type="text" id="escola" name="escola" required placeholder="Informe o nome da Escola em que trabalha">
+            <label for="cargo">Cargo *</label>
+            <select name="cargo" id="cargo" >
+                    <option value="">Selecione o seu cargo nessa Escola</option>
+                    <option value="ads">Análise e Desenvolvimento de Sistemas</option>
+                    <option value="design">Design Gráfico</option>
+                    <option value="engenharia">Engenharia de Software</option>
+            </select>
+            <label for="telefone">Telefone com DDD *</label>
+            <input type="number" id="telefone" name="telefone" required placeholder="Informe seu telefone para contato">
+            <label for="telefone">Telefone com DDD *</label>
+            <input type="text" id="descreva" name="descreva" required placeholder="Conte-nos brevemente sobre a quantidade de alunos, interesses e as expectativas da sua escola"  >
+            <label for="resposta">Quanto é 1 + 11? *</label>
+            <input type="number" id="resposta" name="resposta" required placeholder="Informe a resposta"  >
+            <button class="botao-principal botao">SOLICITAR ORÇAMENTO</button>
+        </form>
+
     </section>
     
 </body>
