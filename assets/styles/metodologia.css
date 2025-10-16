@@ -1,18 +1,20 @@
 .metodologia{
-    padding: 5rem 0;
+    background-image: linear-gradient(to bottom,#FFFFFF, #E7EDF5);
+    
 }
+
 
 .card-metodologia{
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
-    gap: 2.5rem;
+    gap: 2rem;
     justify-content: center;
+ 
 }
 
-.container-metod{
-    max-width: 50%;
-    display: flex;
-    flex-direction: column;
+.container-texto{
+max-width: 50%;
     
 }
 .destaque-2{
@@ -20,36 +22,32 @@
 }
 
 .botao-secundario, .botao {
-    display: inline-block;
-    max-height: 62px;
+
  
       
 }
 
 @media screen and (max-width:1300px) {
-.metodologia{
-    padding: 1.5rem 0;
-}
-
-.container-metod{
-    max-width: 70%;
-
-    
-}
-
 
 .card-metodologia{
     flex-direction: column;
-    align-items: center;
+    justify-items: center;
+ }
+
+.botao-secundario, .botao {
+    display: inline-block;
+  
+}
+
+.container-texto{
+max-width: 70%;
+text-align: center;
+    
+}
+
 }
 
 
-.card-metodologia{
-    justify-content: start;
-    gap: 1rem;
-
-}
-}
 
 @media screen and (max-width:920px){
 
