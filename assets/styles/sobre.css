@@ -1,0 +1,157 @@
+.card-quemsomos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    gap: 8rem;
+    flex-wrap: wrap;
+}
+.subtitulo{
+    font-family: var(--fonte-titulo);
+    color: var(--azul);
+    font-weight: 600;
+}
+.negrito{
+    font-weight: 600;
+}
+
+.img-m, .img-s{
+    display: none;
+}
+.img-l{
+    display: inline;
+}
+
+.card-sobre , .card-numeros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 5rem;
+    justify-items: center;
+    
+  
+}
+
+.card-sobre > h2, .card-numeros > h2 {
+    text-align: center;
+    max-width: 90vw;
+}
+
+.sobre-list, .numeros-list {
+    list-style-type: none;
+    padding-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    gap: 1.2rem;
+
+}
+
+.sobre-list-item, .numeros-list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 400px;
+}
+
+
+
+.sobre-list-item > h4{
+    font-family: var(--fonte-titulo);
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 1rem;
+}
+
+.sobre-list-item > p {
+    font-size: 20px;
+}
+.criativo{
+    color: var(--vermelho);
+}
+
+.acessivel, .estudantes{
+    color: var(--azul);   
+}
+.autonomia, .escolas{
+ color: var(--verde);
+}
+
+
+.numeros-list-item{
+    background-color: var(--azul-baby);
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem;
+    border-radius: 32px;
+
+}
+
+.numeros-list-item > span {
+    font-family: var(--fonte-titulo);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.numeros-list-item > p {
+    font-family: var(--fonte-texto);
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--cinza);
+}
+
+.professores{
+    color: var(--roxo);
+}
+
+
+@media screen and (max-width:1200px) {
+.img-l, .img-s{
+    display: none;
+}
+
+.img-m{
+    display: inline;
+}
+
+
+.card-quemsomos{
+    flex-direction: column-reverse;
+}
+.sobre-list, .numeros-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.2rem;
+    
+}
+
+
+
+}
+
+@media screen and (max-width: 920px) {
+.img-l, .img-m{
+    display: none;
+}
+
+.img-s{
+    display: inline;
+}
+
+.sobre-list, .numeros-list{
+    flex-direction: column;
+    align-content: center;
+}
+
+.sobre-list-item {
+    max-width: 70%;
+}
+
+    
+}
+
+
+        

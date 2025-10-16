@@ -12,18 +12,19 @@
     max-width: 50%;
 }
 
-.home-container > h1{
+.titulo{
     font-family: var(--fonte-titulo);
     color: var(--azul-escuro);
     font-weight: 700;
     font-size: 3.75rem;
+ 
 }
 
 .destaque{
     color: var(--roxo);
 }
 
-.home-container > p{
+.texto{
     font-family: var(--fonte-texto);
     font-size: 1.25rem;
     color: var(--cinza);
@@ -60,7 +61,7 @@
 }
 
 @media screen and (max-width: 920px) {
-    .home-container > h1{
+    .titulo {
     font-size: 2rem;
     }
 
