@@ -35,6 +35,13 @@
     font-size: 14px;
 }
 
+.nav-list-item > a:hover{
+    color: var(--cinza-escuro);
+    transition: 0.5 ease-in;
+    
+
+}
+
 .botao{
     font-family: var(--fonte-texto);
     font-weight: 600;
@@ -50,12 +57,26 @@
     color: #FFFF;
 }
 
+.botao-principal:hover{
+    transform: scale(1.1);
+    background-image: linear-gradient(to left,var(--roxo), var(--roxo-escuro));
+    transition: 0.5 ease;
+}
+
+
 
 .botao-secundario{
     border: 1px solid var(--roxo);
     background-color: transparent;
     color: var(--roxo);
     margin-left: 1rem;
+}
+
+.botao-secundario:hover{
+    transform: scale(1.1);
+    border: 1px solid var(--roxo-escuro);
+    transition: 0.5 ease;
+    color: var(--roxo-escuro);
 }
 
 @media screen and (max-width:1200px){

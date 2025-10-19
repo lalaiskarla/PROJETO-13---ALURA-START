@@ -1,0 +1,37 @@
+.footer{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    gap: 2.5rem;
+    flex-wrap:  wrap;
+    
+}
+
+.footer__container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+
+}
+
+.footer__container > a, .footer__container {
+    text-decoration: none;
+    font-family: var(--fonte-texto);
+    color: var(--cinza-escuro);
+    font-weight: 500;
+    font-size: 13px;
+}
+.footer__container > span{
+    text-transform: uppercase;
+    color: var(--cinza);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+.footer__container > a:hover{
+    color: var(--cinza);
+    transition: 0.5 ease-in;   
+
+}

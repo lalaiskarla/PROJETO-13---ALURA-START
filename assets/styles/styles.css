@@ -9,6 +9,7 @@
     --azul-baby: #F4F7FF;
     --azul: #4EBFE9;
     --roxo: #C75EEB;
+    --roxo-escuro: #6C07AA;
     --vermelho: #F6543B;
     --verde: #61E061;
     --amarelo: #FAC900;
@@ -22,5 +23,8 @@
     box-sizing: border-box;
     
     
+}
+button{
+    cursor: pointer;
 }
 

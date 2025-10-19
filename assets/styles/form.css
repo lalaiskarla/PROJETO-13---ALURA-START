@@ -1,0 +1,162 @@
+.form{
+    background: linear-gradient(45deg, #6C07AA, var(--roxo), #BB5067);
+    padding: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.form-container{
+    max-width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: start;
+    order:1;
+
+}
+
+.form-container > img{
+    margin-bottom: 2rem;
+}
+.form-contato{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    order: 2;
+
+}
+
+.form-container > h3{
+    color: var(--amarelo);
+    font-size: 1rem;
+}
+
+.form-container > h2{
+    color: var(--azul-baby);
+    font-weight: 500;
+}
+
+.destaque-3{
+    color: var(--rosa-baby);
+    font-weight: 500;
+}
+
+.form-contato >  p{
+    color: #DFE3E7;
+}
+
+.card-form{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 25vw;
+    gap: 0.5rem;
+    order: 3;
+
+}
+
+.card-form > h3{
+    color: var(--vermelho);
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+
+}
+
+.card-form > label{
+    font-family: var(--fonte-texto);
+    color: var(--azul-escuro);
+}
+
+.card-form > input, .card-form > select, .card-form> textarea{
+    font-family: var(--fonte-texto);
+    color: rgba(40, 66, 96, 0.4);
+    font-size: 13px;
+    font-weight: 500;
+    border: none;
+    background-color: var(--azul-baby);
+    padding: 12px;
+    border-radius: 5px;
+    
+}
+
+.card-form > input:active, .card-form > select:active, .card-form> textarea:active{
+    border: 2px solid black;
+
+}
+
+.card-form > h3, .card-form > button {
+    margin: 1rem 0;
+}
+
+.div-m{
+    display: none;
+}
+
+.div-l{
+    display: flex;
+}
+
+
+
+@media screen and (max-width:1200px) {
+    .form{
+    padding: 3.5rem;
+    flex-flow: column wrap;
+
+}
+
+
+
+.form-container > h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+.form-container {
+    max-width: 50vw;
+    align-items: center;
+}
+
+
+
+.form-container{
+    order: 1;
+} 
+.form-contato{
+    order: 3;
+} 
+.card-form{
+    order: 2;
+} 
+
+.card-form{
+    width: 45vw;
+
+
+}
+
+.div-m{
+    display: flex;
+}
+
+.div-l{
+    display: none;
+}
+
+}
+
+
+@media screen and (max-width:920px) {
+
+.form-container > h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+}
